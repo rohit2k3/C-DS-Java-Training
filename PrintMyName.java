@@ -1,7 +1,7 @@
 package com.rohit.Learnovate;
 
-public class Helloworld {
+public class PrintMyName {
     public static void main(String[] args) {
-        System.out.println("Fff");
+        System.out.println("Rohit Sharma");
     }
 }

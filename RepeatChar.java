@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class RepeatChar {
     public static void main(String[] args) {
-        System.out.println(repeatCheck("sakshi"));
+        System.out.println(repeatCheck("saksham"));
     }
 
     public static int repeatCheck(String data){
