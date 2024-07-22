@@ -8,7 +8,7 @@ public class VoteAgeCheck {
         String message = (age >= 18) ? "You are eligible for voting" : "You are not eligible for voting";
         System.out.println(message);
 
-
+        //with if else
         if (age >= 18){
             System.out.println("You are eligible for voting");
         }else {
