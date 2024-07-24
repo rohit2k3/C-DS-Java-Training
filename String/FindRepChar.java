@@ -1,9 +1,9 @@
-package com.rohit.Learnovate;
+package com.rohit.Learnovate.String;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class RepeatChar {
+public class FindRepChar {
     public static void main(String[] args) {
 
         System.out.println(repeatCheck("Sakshi"));
