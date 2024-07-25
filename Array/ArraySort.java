@@ -1,4 +1,4 @@
-package com.rohit.Learnovate.Array;
+package JavaPrograms.Array;
 
 import java.util.Arrays;
 

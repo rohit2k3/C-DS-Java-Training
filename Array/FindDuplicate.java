@@ -1,4 +1,4 @@
-package com.rohit.Learnovate.Array;
+package JavaPrograms.Array;
 
 public class FindDuplicate {
     public static void main(String[] args) {

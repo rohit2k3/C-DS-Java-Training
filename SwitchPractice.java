@@ -1,4 +1,4 @@
-package com.rohit.Learnovate;
+package JavaPrograms;
 
 import java.util.Scanner;
 

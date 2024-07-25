@@ -1,4 +1,4 @@
-package com.rohit.Learnovate;
+package JavaPrograms;
 
 public class PrintandSum {
     public static void main(String[] args) {

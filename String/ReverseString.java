@@ -1,4 +1,4 @@
-package com.rohit.Learnovate.String;
+package JavaPrograms.String;
 
 public class ReverseString {
     public static void main(String[] args) {

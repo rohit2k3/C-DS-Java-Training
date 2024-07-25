@@ -1,4 +1,4 @@
-package com.rohit.Learnovate.String;
+package JavaPrograms.String;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.rohit.Learnovate;
+package JavaPrograms;
 
 public class PrintMyName {
     public static void main(String[] args) {
