@@ -36,19 +36,6 @@ public class CurrencyConvertor {
         jFrame.add(inputLabelUser);
         inputLabelUser.setVisible(false);
 
-        JTextField inputDataUser = new JTextField();
-        inputDataUser.setBounds(330 , 40 , 100 , 30);
-        jFrame.add(inputDataUser);
-        inputDataUser.setVisible(false);
-
-
-
-
-
-
-//        JTextField inputPrice = new JTextField();
-//        inputPrice.setBounds(220 , 10 , 100 , 30);
-//        jFrame.add(inputData);
 
         JLabel ansData = new JLabel("Fill and click Convert");
         ansData.setBounds(10 , 70 , 200 ,30 );
@@ -67,15 +54,13 @@ public class CurrencyConvertor {
                     ansData.setText("Please fill the Data");
                     return;
                 }
-
                 try{
                     float USD_price = 87.5f;
                     float ans = 0f;
+                    float userValue = Float.parseFloat(inputData.getText());
                     if (b1.isSelected()){
-                        float userValue = Float.parseFloat(inputData.getText());
                         ans = userValue*USD_price;
                     } else if (b2.isSelected()) {
-                        float userValue = Float.parseFloat(inputData.getText());
                         ans = userValue/USD_price;
                     }
                     ansData.setForeground(Color.green);
